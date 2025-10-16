@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1756275657.8308 "c:/Users/swapn/code/resume/resume.tex" "resume.pdf" "resume" 1756275659.88033 0
+["pdflatex"] 1760644222.64313 "c:/Users/swapn/code/resume/resume.tex" "resume.pdf" "resume" 1760644224.9856 0
   "C:/Users/swapn/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1752861355 1036598 46b5c4c754873f5df530c593bd73fdc1 ""
   "C:/Users/swapn/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1752830586 24225046 29b2159a3163ef4a439d689644a3cc98 ""
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -93,10 +93,10 @@
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1700599895 7500 db31c3d04f8bc9010e47a5efbbace9ff ""
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/swapn/code/resume/resume.tex" 1756275655 6622 d01849fe4015b2efbb4040fc1a6f73f6 ""
-  "resume.aux" 1756275659 673 87f7cc5c47434bbc0db64ec5bc480cd4 "pdflatex"
-  "resume.out" 1756275659 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
-  "resume.tex" 1756275655 6622 d01849fe4015b2efbb4040fc1a6f73f6 ""
+  "c:/Users/swapn/code/resume/resume.tex" 1760644220 6607 3bb12a0b15db0c42ea5cf774cee990d8 ""
+  "resume.aux" 1760644224 673 87f7cc5c47434bbc0db64ec5bc480cd4 "pdflatex"
+  "resume.out" 1760644224 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
+  "resume.tex" 1760644220 6607 3bb12a0b15db0c42ea5cf774cee990d8 ""
   (generated)
   "resume.aux"
   "resume.log"
