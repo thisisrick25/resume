@@ -1,13 +1,12 @@
 # Fdb version 4
-["pdflatex"] 1760694339.02676 "c:/Users/swapn/code/resume/resume.tex" "resume.pdf" "resume" 1760694340.84355 0
-  "C:/Users/swapn/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1760692911 1127066 2e4480652920de952a705a3827d1561a ""
+["pdflatex"] 1760734474.36136 "c:/Users/swapn/code/resume/resume.tex" "resume.pdf" "resume" 1760734475.91613 0
+  "C:/Users/swapn/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1760722944 1167578 ce0dc02a0eb58184435bfb3ae843bcd2 ""
   "C:/Users/swapn/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1760691693 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/swapn/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1760694274 13321623 63ee4bcf2d03c7d959d935942ac16909 ""
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136752454 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmb7t.tfm" 1136752454 2172 fd0c924230362ff848a33632ed45dc23 ""
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmb8r.tfm" 1136752454 4524 6bce29db5bc272ba5f332261583fee9c ""
-  "C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmbc7t.tfm" 1136752454 2732 3862f0304d4d7c3718523e7d6fd950ad ""
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmbi7t.tfm" 1136752454 2228 e564491c42a4540b5ebb710a75ff306c ""
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmbi8r.tfm" 1136752454 4480 10409ed8bab5aea9ec9a78028b763919 ""
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmr7t.tfm" 1136752454 2124 2601a75482e9426d33db523edf23570a ""
@@ -32,7 +31,6 @@
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb" 1136833548 46026 687528a208fbfc1f00832bb96cccebbb ""
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb" 1136833548 45458 504e2b06fa82109d168c7a0afb09e145 ""
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/times/ptmb7t.vf" 1136752454 1372 788387fea833ef5963f4c5bffe33eb89 ""
-  "C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/times/ptmbc7t.vf" 1136752454 1948 09614867cfee727c370daa115b7f3542 ""
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/times/ptmbi7t.vf" 1136752454 1384 6ac0f8b839230f5d9389287365b243c0 ""
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/times/ptmr7t.vf" 1136752454 1380 0ea3a3370054be6da6acd929ec569f06 ""
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/times/ptmrc7t.vf" 1136752454 1948 7330aeef3af211edff3b35fb2c12a0fd ""
@@ -95,10 +93,10 @@
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1749468414 7243 a2c17f18e2c9b702b84fad03d5f9c78b ""
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1749468414 7532 26d26e9d8f2ca784270d5da8ec7d102b ""
   "C:/Users/swapn/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/swapn/code/resume/resume.tex" 1760694338 6451 b04a53863be76a057e76eb2a6fb7cdd9 ""
-  "resume.aux" 1760694340 711 d776b8cadf0903cda9f4356d8076bd81 "pdflatex"
-  "resume.out" 1760694340 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
-  "resume.tex" 1760694338 6451 b04a53863be76a057e76eb2a6fb7cdd9 ""
+  "c:/Users/swapn/code/resume/resume.tex" 1760734473 6476 65d47b79a01f29027f44295758f6f5bb ""
+  "resume.aux" 1760734475 711 1d2889dc8554dfa5a08b320adccd1a78 "pdflatex"
+  "resume.out" 1760734475 390 e4f8a5694cf19dd502a2ae46bce803a6 "pdflatex"
+  "resume.tex" 1760734473 6476 65d47b79a01f29027f44295758f6f5bb ""
   (generated)
   "resume.aux"
   "resume.log"

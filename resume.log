@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.17)  17 OCT 2025 15:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.17)  18 OCT 2025 02:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -323,38 +323,38 @@ Package hyperref Info: Link coloring OFF on input line 108.
 \openout3 = `resume.out'.
 
 \big@size=\dimen169
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 112.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 113.
  (C:\Users\swapn\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 112.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 113.
  (C:\Users\swapn\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 112.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 113.
  (C:\Users\swapn\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 112.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 113.
  (C:\Users\swapn\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 112.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 113.
  (C:\Users\swapn\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 127.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 127.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 133.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
 
 
 [1
@@ -365,18 +365,18 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 8178769A591DAE54593BE5DC5893BD68;390.
+(rerunfilecheck)             Checksum: E4F8A5694CF19DD502A2AE46BCE803A6;390.
  ) 
 Here is how much of TeX's memory you used:
- 11054 strings out of 468081
- 175920 string characters out of 5425788
+ 11051 strings out of 468081
+ 175889 string characters out of 5425788
  615396 words of memory out of 5000000
- 39567 multiletter control sequences out of 15000+600000
- 663271 words of font info for 108 fonts, out of 8000000 for 9000
+ 39566 multiletter control sequences out of 15000+600000
+ 661505 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,280b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/swapn/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on resume.pdf (1 page, 77385 bytes).
+Output written on resume.pdf (1 page, 76678 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)

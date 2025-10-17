@@ -136,7 +136,6 @@ INPUT .\resume.out
 OUTPUT resume.out
 INPUT C:\Users\swapn\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Users\swapn\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\swapn\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbc7t.tfm
 INPUT C:\Users\swapn\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\swapn\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
 INPUT C:\Users\swapn\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
@@ -199,8 +198,7 @@ INPUT C:\Users\swapn\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7
 INPUT C:\Users\swapn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy5.tfm
 INPUT C:\Users\swapn\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Users\swapn\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\swapn\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbc7t.vf
-INPUT C:\Users\swapn\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\swapn\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\swapn\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\swapn\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\swapn\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
