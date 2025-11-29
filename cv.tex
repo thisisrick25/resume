@@ -1,0 +1,443 @@
+%-------------------------
+% Curriculum Vitae in Latex
+% Author : Swapnaneel Patra
+% Based off of: https://github.com/sb2nov/resume, Jake's Resume (Jake Gutierrez)
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+\usepackage{mathptmx}
+% \usepackage{newtxtext}
+% \usepackage{txfonts}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot[C]{\thepage}
+\fancyhead[R]{\textit{Swapnaneel Patra}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{13.59999pt}
+\setlength{\footskip}{13.59999pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textbf{\textit{\small#3}} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%-----------HEADER-----------
+\begin{center}
+  \textbf{\Huge SWAPNANEEL PATRA} \\ \vspace{1pt}
+  \textbf{Curriculum Vitae} \\ \vspace{5pt}
+  \small +91 9547106242 $|$
+  \href{mailto:swapnaneel_pa2503mth403@iitp.ac.in}{\underline{swapnaneel\_pa2503mth403@iitp.ac.in}} $|$
+  \href{https://linkedin.com/in/swapnaneelpatra}{\underline{linkedin.com/in/swapnaneelpatra}} $|$
+  \href{https://github.com/thisisrick25}{\underline{github.com/thisisrick25}}
+\end{center}
+
+% NOTE: Tailor section order based on position type:
+% For research-focused positions: prioritize Research Experience, Teaching, Publications
+% For industry positions: prioritize Industry Experience, Technical Skills, Projects
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Indian Institutes of Technology (IIT)}
+{Patna, India}
+{Master of Technology in Artificial Intelligence \& Data Science Engineering}
+{Aug. 2025 -- Present}
+\resumeItemListStart
+\resumeItem{\textbf{Advisor:} Dr. [Name], Department of Computer Science}
+\resumeItem{\textbf{Focus Areas:} Deep Learning, Natural Language Processing, Computer Vision, Reinforcement Learning}
+\resumeItem{\textbf{Relevant Coursework:} Advanced Machine Learning, Statistical Learning Theory, Neural Networks and Deep Learning, Data Mining and Analytics}
+\resumeItemListEnd
+
+\resumeSubheading
+{Kalinga Institute of Industrial Technology (KIIT)}
+{Bhubaneswar, India}
+{Bachelor of Technology in Computer Science and Engineering}
+{June 2019 -- Aug. 2023}
+\resumeItemListStart
+\resumeItem{GPA: 8.38/10.0 (First Class with Distinction)}
+\resumeItem{\textbf{Relevant Coursework:} Data Structures and Algorithms, Design and Analysis of Algorithms, Machine Learning, Artificial Intelligence, Neural Networks and Deep Learning, Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization, High Performance Computing, Data Analytics, Probability and Statistics, Database Management Systems, Operating Systems, Computer Networks, Software Engineering, Cloud Computing, Compiler Design}
+\resumeItem{\textbf{Academic Projects:} B2B Invoice Management System with ML-based Payment Prediction (90.43\% accuracy), E-commerce Platform with RBAC and Microservices Architecture}
+\resumeItem{\textbf{Honors:} Chi Epsilon Honors Society}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+%-----------RESEARCH INTERESTS-----------
+\section{RESEARCH INTERESTS}
+\resumeSubHeadingListStart
+\resumeItem{\textbf{Primary Areas:} Deep Learning, Natural Language Processing, Computer Vision, Artificial Intelligence}
+\resumeItem{\textbf{Applied Research:} Machine Learning for Enterprise Applications, Intelligent Systems, Distributed Computing}
+\resumeItem{\textbf{Software Engineering:} Scalable System Design, Cloud-Native Architectures, DevOps Practices}
+\resumeSubHeadingListEnd
+
+
+%-----------RESEARCH EXPERIENCE-----------
+\section{RESEARCH EXPERIENCE}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Research Intern -- Machine Learning for Invoice Prediction}{Jan. 2022 -- Apr. 2022}
+{HighRadius Corporation}{Bhubaneswar, India}
+\resumeItemListStart
+\resumeItem{Developed accurate ML models to predict B2B payment periods for enterprise cash flow management, achieving 90.43\% prediction accuracy through systematic feature engineering and model optimization.}
+\resumeItem{Investigated supervised learning techniques including Random Forest, Gradient Boosting, and Neural Networks for time-series financial data; developed novel feature extraction methods from invoice metadata, payment history, and customer credit profiles.}
+\resumeItem{Published internal technical report documenting methodology, results, and recommendations for production deployment; model adopted for pilot deployment with 3 enterprise clients.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-----------TEACHING EXPERIENCE-----------
+\section{TEACHING EXPERIENCE}
+\resumeSubHeadingListStart
+
+\resumeItem{\textbf{Teaching Assistant} -- Data Structures and Algorithms (CS 201), KIIT University (Spring 2022)}
+\resumeItem{Course Level: Undergraduate; Enrollment: 40+ students; Instructor: [Faculty Name]}
+\resumeItem{Assisted students with problem-solving sessions, code reviews, and algorithm design concepts; conducted weekly lab sessions on implementation of fundamental data structures in Python and C++.}
+\resumeItem{Improved student comprehension and coding proficiency through personalized feedback and practical exercises.}
+
+\resumeSubHeadingListEnd
+
+
+%-----------MENTORING EXPERIENCE-----------
+\section{MENTORING EXPERIENCE}
+\resumeSubHeadingListStart
+
+\resumeItem{\textbf{Technical Mentor} -- EPAM Systems, Hyderabad, India (May 2024 -- Sep. 2024)}
+\resumeItem{Mentored 3 junior developers on React and Node.js development practices, code quality standards, and software design patterns.}
+\resumeItem{Conducted pair programming sessions and code reviews, providing constructive feedback on architecture decisions and implementation approaches.}
+\resumeItem{Developed onboarding materials and technical documentation to accelerate new team member productivity.}
+
+\resumeItem{\textbf{Open Source Mentor} -- GitLab CLI, Gemini CLI, BrainGlobe Atlas API (2024-2025)}
+\resumeItem{Provided code review feedback to contributors, helping improve code quality and adherence to project standards.}
+\resumeItem{Authored detailed documentation and examples to guide new contributors through complex features and APIs.}
+
+\resumeSubHeadingListEnd
+
+
+%-----------PROFESSIONAL EXPERIENCE-----------
+\section{INDUSTRY EXPERIENCE}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Junior Software Engineer}{May 2024 -- Sep. 2024}
+{EPAM Systems}{Hyderabad, India}
+\resumeItemListStart
+\resumeItem{Collaborated within an Agile team to design and deliver a scalable e-commerce web application, implementing CI/CD pipelines using GitHub Actions and Docker for rapid iteration and continuous integration.}
+\resumeItem{Designed and implemented secure user authentication and role-based access control (RBAC) system, enhancing data privacy and platform security through JWT-based authentication and authorization middleware.}
+\resumeItem{Developed a dynamic product catalog with advanced search and filtering capabilities using Elasticsearch, improving user engagement by 30\% and product discoverability through optimized query performance.}
+\resumeItem{Built a comprehensive admin module for streamlined management of user access, orders, and product listings, reducing administrative overhead by 40\% through automation and intuitive UI design.}
+\resumeItem{Created vendor tools for efficient product listing management and supplier onboarding, including bulk upload functionality and validation workflows.}
+\resumeItem{Participated in sprint planning, daily stand-ups, and retrospectives, contributing to continuous process improvement within the team.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Software Engineering Intern}{Jan. 2022 -- Apr. 2022}
+{HighRadius Corporation}{Bhubaneswar, India}
+\resumeItemListStart
+\resumeItem{Collaborated on building an AI-powered B2B invoice management system to streamline payment predictions and improve operational efficiency for enterprise clients.}
+\resumeItem{Built and trained a machine learning model using scikit-learn and Python, achieving 90.43\% accuracy in forecasting payment periods for B2B companies, utilizing features such as invoice amount, payment history, and customer credit scores.}
+\resumeItem{Streamlined backend data retrieval using Java servlets and the MVC design pattern, ensuring a responsive and user-friendly interface with optimized database queries and caching strategies.}
+\resumeItem{Created an intuitive Receivables Dashboard with structured grid visualization using React and D3.js, making data more accessible and actionable for finance teams through interactive charts and real-time updates.}
+\resumeItem{Implemented robust CRUD functionalities and seamless pagination for large datasets, enhancing navigation and data management for users handling thousands of invoice records.}
+\resumeItem{Developed comprehensive unit tests using JUnit and integration tests to ensure system reliability and maintainability.}
+\resumeItem{Collaborated with cross-functional teams including product managers, designers, and QA engineers to deliver features on schedule.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-----------OPEN SOURCE CONTRIBUTIONS-----------
+\section{OPEN SOURCE CONTRIBUTIONS}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{\href{https://gitlab.com/gitlab-org/cli}{GitLab CLI}} $|$ \emph{Go, CLI Development, REST APIs}}{Oct. 2025}
+\resumeItemListStart
+\resumeItem{Implemented member management and GPG key features (add/remove and add/list/get/delete commands) to enable flexible user access control for GitLab projects.}
+\resumeItem{Designed command-line interface supporting username or user ID input, configurable access levels (Guest, Reporter, Developer, Maintainer, Owner), and optional expiration dates for temporary access.}
+\resumeItem{Developed comprehensive unit tests with HTTP mocking for API interactions and edge case coverage (invalid inputs, user not found scenarios).}
+\resumeItem{Contributed documentation and examples for new commands, improving developer experience for CLI users.}
+\resumeItem{Merged PRs: \href{https://gitlab.com/gitlab-org/cli/-/merge_requests/2451}{\#2451} and \href{https://gitlab.com/gitlab-org/cli/-/merge_requests/2456}{\#2456}}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{\href{https://github.com/google-gemini/gemini-cli}{Gemini CLI}} $|$ \emph{TypeScript, Node.js, Streaming APIs}}{Aug. 2025}
+\resumeItemListStart
+\resumeItem{Fixed critical bug in chat-history consolidation to correctly merge multi-part streaming responses, preventing role desynchronization and incorrect text concatenation affecting user conversations.}
+\resumeItem{Refactored consolidation logic to append new text to the last text part of content blocks rather than the first, improving accuracy of content merging for mixed content types.}
+\resumeItem{Introduced helper methods (isFirstPartText, isLastPartText) to provide precise checks for content part types, enabling robust merge conditions and preventing incorrect concatenation.}
+\resumeItem{Added special handling for 'thought' content to filter from permanent history records while yielding immediately in streaming responses for real-time updates.}
+\resumeItem{Collaborated with maintainers through iterative code review process, addressing feedback and ensuring code quality standards.}
+\resumeItem{Merged PR: \href{https://github.com/google-gemini/gemini-cli/pull/6235}{\#6235}}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{\href{https://github.com/brainglobe/brainglobe-atlasapi}{BrainGlobe Atlas API}} $|$ \emph{Python, Scientific Computing, Brain Atlas Data}}{Apr. 2025}
+\resumeItemListStart
+\resumeItem{Refactored atlas-generation pipeline to remove implicit BrainGlobe orientation transforms, simplifying atlas creation workflow and improving reproducibility of neuroscience research data.}
+\resumeItem{Simplified metadata templates by removing orientation field and transform matrix calculations, reducing complexity for atlas maintainers and contributors.}
+\resumeItem{Implemented ATLAS\_ORIENTATION constant for standardized origin and space definitions across all atlas implementations.}
+\resumeItem{Added comprehensive tests for metadata generation and atlas consolidation to prevent regressions and ensure data integrity.}
+\resumeItem{Updated documentation to reflect changes in atlas packaging workflow and orientation requirements for new atlas submissions.}
+\resumeItem{Merged PR: \href{https://github.com/brainglobe/brainglobe-atlasapi/pull/555}{\#555}}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-----------PUBLICATIONS-----------
+\section{PUBLICATIONS}
+\resumeSubHeadingListStart
+\resumeItem{\textit{No formal publications yet. Working papers and conference submissions in progress.}}
+\vspace{5pt}
+% Format guidelines: Use citation style standard in field (APA/IEEE/ACM)
+% Bold your name in author list; include DOI/URL; list in reverse chronological order
+% 
+% Peer-Reviewed Journal Articles:
+% \resumeItem{\textbf{Patra, S.}, Co-Author, A., \& Third Author, B. (2025). Title of paper in sentence case. \textit{Journal Name}, 15(3), 123-145. https://doi.org/10.xxxx/xxxxx}
+%
+% Conference Proceedings:
+% \resumeItem{\textbf{Patra, S.}, \& Co-Author, A. (2025). Title of paper. In \textit{Proceedings of Conference Name} (pp. 100-110). Publisher.}
+%
+% Works in Press:
+% \resumeItem{\textbf{Patra, S.}, Co-Author, A. (in press). Title of paper. \textit{Journal Name}.}
+\resumeSubHeadingListEnd
+
+
+%-----------PRESENTATIONS-----------
+\section{PRESENTATIONS}
+\resumeSubHeadingListStart
+\resumeItem{\textit{Conference presentations and invited talks to be listed here as they occur.}}
+\vspace{5pt}
+% Format: Title, Conference/Event, Location, Date
+% Organize by prestige: Keynotes → Invited Talks → Oral Presentations → Posters
+%
+% Invited Talks:
+% \resumeItem{\textbf{Patra, S.} (December 2025). "Presentation Title." Invited talk at University Name, City, State.}
+%
+% Conference Presentations (Oral):
+% \resumeItem{\textbf{Patra, S.}, \& Co-Author, A. (November 2025). "Presentation Title." Paper presented at Conference Name, City, State.}
+%
+% Poster Presentations:
+% \resumeItem{\textbf{Patra, S.}, Co-Author, A., \& Third Author, B. (October 2025). "Poster Title." Poster presented at Conference Name, City, State.}
+\resumeSubHeadingListEnd
+
+
+%-----------ACADEMIC PROJECTS-----------
+\section{ACADEMIC PROJECTS}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{AI-Powered B2B Invoice Management System} $|$ \emph{Python, scikit-learn, Flask, React}}{Jan. 2022 -- Apr. 2022}
+\resumeItemListStart
+\resumeItem{Designed and developed an end-to-end machine learning system to predict payment periods for B2B invoices with 90.43\% accuracy.}
+\resumeItem{Implemented feature engineering pipeline to extract relevant features from invoice data, including payment history, invoice amount, customer credit scores, and seasonal patterns.}
+\resumeItem{Trained and evaluated multiple ML models (Random Forest, Gradient Boosting, Neural Networks) using cross-validation and hyperparameter tuning.}
+\resumeItem{Developed RESTful API using Flask to serve model predictions and integrate with frontend dashboard.}
+\resumeItem{Created interactive Receivables Dashboard using React and D3.js for data visualization and business insights.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Scalable E-commerce Platform} $|$ \emph{Node.js, React, PostgreSQL, Docker}}{May 2024 -- Sep. 2024}
+\resumeItemListStart
+\resumeItem{Architected and implemented a microservices-based e-commerce platform with separate services for authentication, product catalog, orders, and payments.}
+\resumeItem{Designed database schema for PostgreSQL with optimized indexing strategies for high-performance queries on large product catalogs.}
+\resumeItem{Implemented secure authentication system with JWT tokens, password hashing using bcrypt, and role-based access control (RBAC).}
+\resumeItem{Developed CI/CD pipeline using GitHub Actions, Docker, and automated testing to ensure code quality and rapid deployment.}
+\resumeItem{Implemented caching strategies using Redis to reduce database load and improve response times by 60\%.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-----------HONORS \& AWARDS-----------
+\section{HONORS \& AWARDS}
+\resumeSubHeadingListStart
+\resumeItem{\textbf{First Class with Distinction} -- KIIT University, GPA 8.38/10.0, Graduated 2023}
+\resumeItem{Awarded to graduates with GPA $\geq$ 8.0; top 15\% of graduating class}
+\resumeItem{\textbf{Chi Epsilon Honors Society} -- KIIT University, 2022}
+\resumeItem{Selective academic honor society recognizing excellence in Computer Science}
+\resumeItem{\textbf{Dean's List} -- KIIT University, Multiple Semesters (2019-2023)}
+\resumeItem{Awarded for achieving semester GPA $\geq$ 8.0; recognized 4 semesters}
+\resumeItem{\textbf{Outstanding Achievement in Neural Networks and Deep Learning} -- DeepLearning.AI Specialization, 2023}
+\resumeItem{Grade: O (90-100\%), top performer in cohort of 10,000+ learners}
+\resumeItem{\textbf{Outstanding Achievement in Deep Learning Optimization} -- DeepLearning.AI Specialization, 2023}
+\resumeItem{Grade: O (90-100\%), demonstrated mastery in hyperparameter tuning and regularization}
+\resumeSubHeadingListEnd
+
+
+%-----------PROFESSIONAL DEVELOPMENT-----------
+\section{PROFESSIONAL DEVELOPMENT}
+\resumeSubHeadingListStart
+\resumeItem{\textbf{Neural Networks and Deep Learning} -- Coursera (DeepLearning.AI), Completed 2023}
+\resumeItem{\textbf{Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization} -- Coursera (DeepLearning.AI), Completed 2023}
+\resumeItem{\textbf{Machine Learning Specialization} -- Coursera (Stanford Online), In Progress}
+\resumeItem{\textbf{Cloud Computing Professional Certificate} -- KIIT University, Completed 2023}
+\resumeItemListEnd
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{TECHNICAL SKILLS}
+\begin{itemize}[leftmargin=0in, label={}]
+  \small{\item{
+        \textbf{Programming Languages}{: Python, Go, C/C\texttt{++}, Java, JavaScript, TypeScript, SQL, Bash, HTML/CSS} \\
+        \textbf{Machine Learning \& AI}{: PyTorch, TensorFlow, scikit-learn, Keras, pandas, NumPy, SciPy, Matplotlib, Seaborn} \\
+        \textbf{Web Development Frameworks}{: React, Next.js, Node.js, Express.js, FastAPI, Flask} \\
+        \textbf{Database Systems}{: PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch} \\
+        \textbf{DevOps \& Cloud}{: Docker, Kubernetes, Git, GitHub Actions, GitLab CI, TravisCI, CircleCI, Google Cloud Platform, AWS} \\
+        \textbf{Developer Tools}{: VS Code, IntelliJ IDEA, PyCharm, Jupyter Notebook, Postman, Linux/Unix} \\
+        \textbf{Software Engineering}{: REST APIs, Microservices Architecture, CI/CD, Unit Testing (pytest, JUnit), Integration Testing, Agile/Scrum, Design Patterns, MVC Architecture} \\
+        \textbf{Other Technologies}{: D3.js, OpenCV, NLTK, spaCy, Kafka, RabbitMQ, NGINX}
+        }}
+\end{itemize}
+
+
+%-----------PROFESSIONAL ASSOCIATIONS-----------
+\section{PROFESSIONAL ASSOCIATIONS}
+\resumeSubHeadingListStart
+% Add memberships as they occur:
+% \resumeItem{\textbf{Association for Computing Machinery (ACM)} -- Student Member (2023-Present)}
+% \resumeItem{\textbf{IEEE Computer Society} -- Student Member (2022-Present)}
+% \resumeItem{\textbf{Association for the Advancement of Artificial Intelligence (AAAI)} -- Member (2024-Present)}
+\resumeItem{\textit{Professional society memberships to be added as obtained}}
+\resumeSubHeadingListEnd
+
+
+%-----------RELEVANT COURSEWORK-----------
+\section{RELEVANT COURSEWORK}
+\begin{itemize}[leftmargin=0in, label={}]
+  \small{\item{
+        \textbf{Graduate Level}{: Advanced Machine Learning, Statistical Learning Theory, Neural Networks and Deep Learning, Data Mining and Analytics, Natural Language Processing, Computer Vision} \\
+        \textbf{Undergraduate Level}{: Data Structures and Algorithms, Design and Analysis of Algorithms, Machine Learning, Artificial Intelligence, High Performance Computing, Data Analytics, Probability and Statistics, Database Management Systems, Operating Systems, Computer Networks, Software Engineering, Cloud Computing, Compiler Design, Automata and Formal Languages, Object Oriented Programming, Digital Electronics, Engineering Economics}
+        }}
+\end{itemize}
+
+
+%-----------SERVICE AND LEADERSHIP-----------
+\section{SERVICE \& LEADERSHIP}
+\resumeSubHeadingListStart
+\resumeItem{\textbf{Open Source Contributor} -- Active contributor to GitLab CLI, Gemini CLI, and BrainGlobe Atlas API projects (2024-2025)}
+\resumeItem{\textbf{Technical Community Engagement} -- Participated in code reviews and discussions on open-source projects, contributing to collaborative development practices}
+\resumeItem{\textbf{Knowledge Sharing} -- Authored technical documentation and examples to help developers understand complex features and APIs}
+\resumeItem{\textbf{Agile Team Collaboration} -- Active participant in sprint planning, retrospectives, and continuous improvement initiatives at EPAM Systems}
+\resumeSubHeadingListEnd
+
+
+%-----------REFERENCES-----------
+\section{REFERENCES}
+\resumeSubHeadingListStart
+\resumeItem{\textbf{Dr. [Name]}}
+\resumeItem{Professor, Department of Computer Science}
+\resumeItem{Indian Institute of Technology Patna, Patna, India}
+\resumeItem{Email: [email]@iitp.ac.in $|$ Phone: [phone number]}
+\resumeItem{\textit{Relationship: Master's thesis advisor}}
+\vspace{5pt}
+\resumeItem{\textbf{[Supervisor Name]}}
+\resumeItem{Engineering Manager, EPAM Systems, Hyderabad, India}
+\resumeItem{Email: [email]@epam.com $|$ Phone: [phone number]}
+\resumeItem{\textit{Relationship: Direct supervisor during software engineering position}}
+\vspace{5pt}
+\resumeItem{\textbf{[Supervisor Name]}}
+\resumeItem{Senior Software Engineer, HighRadius Corporation, Bhubaneswar, India}
+\resumeItem{Email: [email]@highradius.com $|$ Phone: [phone number]}
+\resumeItem{\textit{Relationship: Research internship supervisor}}
+\vspace{5pt}
+\resumeItem{\textit{Additional references available upon request}}
+\resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
