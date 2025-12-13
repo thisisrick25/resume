@@ -132,10 +132,10 @@
 {Bhubaneswar, India}
 {Bachelor of Technology in Computer Science and Engineering}
 {June 2019 -- Aug. 2023}
-\resumeItemListStart
-\resumeItem{GPA 8.38/10.0}
-\resumeItem{\textbf{Coursework:} Data Structures and Algorithms, Design and Analysis of Algorithms, Machine Learning, Artificial Intelligence, Probability and Statistics, Operating Systems}
-\resumeItemListEnd
+% \resumeItemListStart
+% \resumeItem{GPA 8.38/10.0}
+% \resumeItem{\textbf{Coursework:} Data Structures and Algorithms, Design and Analysis of Algorithms, Machine Learning, Artificial Intelligence, Probability and Statistics, Operating Systems}
+% \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 
@@ -181,14 +181,24 @@
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
-{\textbf{Open Source Contributions}}{}
+{\textbf{Open Source Contributions} $|$ \emph{JavaScript, TypeScript, Go, Python}}{}
 \resumeItemListStart
 % \resumeItem{\textbf{\href{https://gitlab.com/gitlab-org/cli}{GitLab CLI} (Go):} Implemented member management feature (add/remove commands supporting username or user ID, configurable access levels and optional expiration; merged PR \href{https://gitlab.com/gitlab-org/cli/-/merge_requests/2451}{\#2451}) and GPG key management feature (add/list/get/delete commands; merged PR \href{https://gitlab.com/gitlab-org/cli/-/merge_requests/2456}{\#2456}).}
 % \resumeItem{\textbf{\href{https://github.com/google-gemini/gemini-cli}{Gemini CLI} (TypeScript):} Refactored chat-history consolidation to correctly merge multi-part streaming responses, introduced helper checks to preserve alternating roles and prevent incorrect text concatenation, and added tests and documentation updates; merged PR \href{https://github.com/google-gemini/gemini-cli/pull/6235}{\#6235}.}
 % \resumeItem{\textbf{\href{https://github.com/brainglobe/brainglobe-atlasapi}{BrainGlobe Atlas API} (Python):} Refactored atlas-generation pipeline to remove implicit BrainGlobe orientation transforms, simplified metadata templates, and added tests and documentation updates to improve atlas reproducibility; merged PR \href{https://github.com/brainglobe/brainglobe-atlasapi/pull/555}{\#555}.}
 \resumeItem{\textbf{\href{https://gitlab.com/gitlab-org/cli}{GitLab CLI} (Go):} Implemented member management and GPG key features (add/remove and add/list/get/delete commands) to enable flexible user access control; merged PRs \href{https://gitlab.com/gitlab-org/cli/-/merge_requests/2451}{\#2451} and \href{https://gitlab.com/gitlab-org/cli/-/merge_requests/2456}{\#2456}.}
+% \resumeItem{\textbf{\href{https://gitlab.com/gitlab-org/cli}{GitLab CLI -- Token Cache} (Go):} Designed and implemented \texttt{glab cluster agent token-cache} commands (list/clear) to provide visibility and control over cached Kubernetes agent tokens with filtering by agent ID and cache source (keyring/filesystem); merged PR \href{https://gitlab.com/gitlab-org/cli/-/merge_requests/2443}{\#2443}.}
 \resumeItem{\textbf{\href{https://github.com/google-gemini/gemini-cli}{Gemini CLI} (TypeScript):} Fixed chat-history consolidation to correctly merge multi-part streaming responses, preventing role desynchronization and incorrect text concatenation; merged PR \href{https://github.com/google-gemini/gemini-cli/pull/6235}{\#6235}.}
 \resumeItem{\textbf{\href{https://github.com/brainglobe/brainglobe-atlasapi}{BrainGlobe Atlas API} (Python):} Refactored atlas-generation pipeline to remove implicit orientation transforms, simplified metadata templates, and added tests/docs to improve reproducible atlas builds; merged PR \href{https://github.com/brainglobe/brainglobe-atlasapi/pull/555}{\#555}.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{3D Medical Image Segmentation} $|$ \emph{PyTorch, MONAI, Python}}{}
+\resumeItemListStart
+\resumeItem{Engineered an end-to-end segmentation framework for 3D Left Atrium MRI scans, reducing manual annotation time.}
+\resumeItem{Designed a custom data ingestion pipeline that processes raw DICOM series into normalized 3D NIfTI volumes, handling variable slice thickness and orientation.}
+\resumeItem{Trained a 3D U-Net model utilizing Dice Loss to handle class imbalance between background and region-of-interest (ROI).}
+\resumeItem{Integrated automated testing and visualization scripts to monitor training metrics (Dice score) and validate model inference quality.}
 \resumeItemListEnd
 
 % \resumeProjectHeading
